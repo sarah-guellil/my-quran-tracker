@@ -1,0 +1,95 @@
+@import "tailwindcss";
+
+/* ---------- Colores (modo claro) ---------- */
+:root {
+  --background: #fcf8f8; /* blanco rosado */
+  --surface: #ffffff;    /* tarjetas */
+  --rose: #d98ba0;       /* principal */
+  --rose-soft: #f6dde3;  /* fondos suaves */
+  --sage: #8fa98b;       /* hojas, tallos */
+  --mauve: #9c7a97;      /* secundario */
+  --gold: #c9a86a;       /* logros, sol */
+  --ink: #3d2b33;        /* texto */
+  --ink-soft: #7a6670;   /* texto secundario */
+  --border: #eedfe3;
+}
+
+/* ---------- Colores (modo oscuro) ---------- */
+/* Sigue el sistema, salvo que la usuaria fuerce .light o .dark en <html> */
+@media (prefers-color-scheme: dark) {
+  :root:not(.light) {
+    --background: #1e171b;
+    --surface: #2a2026;
+    --rose: #e6a3b5;
+    --rose-soft: #4a3039;
+    --sage: #a3bc9f;
+    --mauve: #c2a3bd;
+    --gold: #d9bc82;
+    --ink: #f5ebee;
+    --ink-soft: #bfa9b2;
+    --border: #3d2e35;
+  }
+}
+
+:root.dark {
+  --background: #1e171b;
+  --surface: #2a2026;
+  --rose: #e6a3b5;
+  --rose-soft: #4a3039;
+  --sage: #a3bc9f;
+  --mauve: #c2a3bd;
+  --gold: #d9bc82;
+  --ink: #f5ebee;
+  --ink-soft: #bfa9b2;
+  --border: #3d2e35;
+}
+
+/* ---------- Tokens para Tailwind ---------- */
+/* Permiten usar clases como bg-rose, text-ink, border-border, font-quran */
+@theme inline {
+  --color-background: var(--background);
+  --color-surface: var(--surface);
+  --color-rose: var(--rose);
+  --color-rose-soft: var(--rose-soft);
+  --color-sage: var(--sage);
+  --color-mauve: var(--mauve);
+  --color-gold: var(--gold);
+  --color-ink: var(--ink);
+  --color-ink-soft: var(--ink-soft);
+  --color-border: var(--border);
+
+  --font-sans: var(--font-figtree), system-ui, sans-serif;
+  --font-display: var(--font-amiri), Georgia, serif;
+  --font-quran: var(--font-amiri-quran), var(--font-amiri), serif;
+}
+
+/* ---------- Base ---------- */
+body {
+  background: var(--background);
+  color: var(--ink);
+  font-family: var(--font-sans);
+}
+
+/* Texto corÃ¡nico: grande, RTL y con mucho interlineado */
+.quran {
+  font-family: var(--font-quran);
+  font-size: 1.75rem;
+  line-height: 2.4;
+  direction: rtl;
+  text-align: right;
+}
+
+/* Accesibilidad */
+:focus-visible {
+  outline: 2px solid var(--rose);
+  outline-offset: 2px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+  }
+}
