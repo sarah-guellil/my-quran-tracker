@@ -1,0 +1,84 @@
+{
+  "meta": {
+    "title": "The Wird Garden",
+    "description": "Memoriza el Corán a tu ritmo y haz crecer tu jardín."
+  },
+  "header": {
+    "tagline": "Tu Corán, tu jardín",
+    "howItWorks": "Cómo funciona",
+    "signIn": "Entrar"
+  },
+  "hero": {
+    "titleStart": "Empieza con una semilla.",
+    "titleEnd": "Termina con un jardín.",
+    "subtitle": "Memoriza el Corán a tu ritmo y con tu método. Cada sura que guardas en el corazón florece en tu jardín.",
+    "cta": "Empezar mi jardín",
+    "badgeTitle": "12 flores",
+    "badgeText": "ya florecen en tu jardín"
+  },
+  "steps": {
+    "eyebrow": "Cómo funciona",
+    "title": "Recita. Recuerda. Florece.",
+    "items": [
+      {
+        "title": "Recita",
+        "text": "Elige cómo memorizas: por aleya, por tercio, por media página o por página. Escucha el audio y repite las veces que necesites."
+      },
+      {
+        "title": "Recuerda",
+        "text": "Repasar es regar. Cada día la app te dice qué toca repasar para que nada se marchite."
+      },
+      {
+        "title": "Florece",
+        "text": "Cada sura que memorizas se convierte en una planta nueva en tu jardín."
+      }
+    ]
+  },
+  "garden": {
+    "eyebrow": "Tu jardín",
+    "title": "Cada sura, una planta",
+    "text": "Cuanto más larga es la sura, más grande es lo que florece. Nadie compite con nadie: el jardín es solo tuyo.",
+    "items": [
+      { "unit": "Suras cortas", "becomes": "Margaritas y violetas" },
+      { "unit": "Suras medianas", "becomes": "Rosas y tulipanes" },
+      { "unit": "Suras largas", "becomes": "Hortensias y jazmines" },
+      { "unit": "Al-Baqarah", "becomes": "Un árbol en flor" }
+    ]
+  },
+  "name": {
+    "eyebrow": "Por qué se llama así",
+    "title": "Del wird al ward",
+    "wirdLabel": "Tu porción diaria del Corán",
+    "wardLabel": "Rosas",
+    "text": "En árabe se escriben con las mismas letras y solo cambia una vocal. Tu wird de cada día se convierte, poco a poco, en un jardín de rosas."
+  },
+  "features": {
+    "eyebrow": "Pensada para el hifz",
+    "title": "Todo lo que necesitas, nada más",
+    "items": [
+      {
+        "title": "Tu plan, a tu medida",
+        "text": "Guiada día a día o a tu aire. Empieza por Al-Fatiha o por Juz' Amma."
+      },
+      {
+        "title": "Audio por aleya",
+        "text": "Recitadores reconocidos y repetición automática de lo que estás memorizando."
+      },
+      {
+        "title": "Modo autoevaluación",
+        "text": "Oculta el texto y recita de memoria para comprobar lo que ya sabes."
+      },
+      {
+        "title": "Un asistente que te acompaña",
+        "text": "Te ayuda con el repaso y te explica el significado de lo que memorizas, citando sus fuentes."
+      }
+    ]
+  },
+  "closing": {
+    "titleStart": "Planta el Corán",
+    "titleEnd": "en tu corazón."
+  },
+  "footer": {
+    "source": "Código en GitHub"
+  }
+}
