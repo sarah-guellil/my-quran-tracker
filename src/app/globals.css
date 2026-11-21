@@ -5,6 +5,7 @@
   --background: #fcf8f8; /* blanco rosado */
   --surface: #ffffff;    /* tarjetas */
   --rose: #d98ba0;       /* principal */
+  --rose-deep: #ad5c76;  /* botones, enlaces y títulos en rosa (buen contraste) */
   --rose-soft: #f6dde3;  /* fondos suaves */
   --sage: #8fa98b;       /* hojas, tallos */
   --mauve: #9c7a97;      /* secundario */
@@ -21,6 +22,7 @@
     --background: #1e171b;
     --surface: #2a2026;
     --rose: #e6a3b5;
+    --rose-deep: #e6a3b5;
     --rose-soft: #4a3039;
     --sage: #a3bc9f;
     --mauve: #c2a3bd;
@@ -35,6 +37,7 @@
   --background: #1e171b;
   --surface: #2a2026;
   --rose: #e6a3b5;
+  --rose-deep: #e6a3b5;
   --rose-soft: #4a3039;
   --sage: #a3bc9f;
   --mauve: #c2a3bd;
@@ -50,6 +53,7 @@
   --color-background: var(--background);
   --color-surface: var(--surface);
   --color-rose: var(--rose);
+  --color-rose-deep: var(--rose-deep);
   --color-rose-soft: var(--rose-soft);
   --color-sage: var(--sage);
   --color-mauve: var(--mauve);
@@ -70,7 +74,7 @@ body {
   font-family: var(--font-sans);
 }
 
-/* Texto corÃ¡nico: grande, RTL y con mucho interlineado */
+/* Texto coránico: grande, RTL y con mucho interlineado */
 .quran {
   font-family: var(--font-quran);
   font-size: 1.75rem;
@@ -92,4 +96,22 @@ body {
     animation-duration: 0.01ms !important;
     transition-duration: 0.01ms !important;
   }
+}
+
+/* ---------- Jardín: las plantas brotan al cargar la página ---------- */
+@keyframes garden-grow {
+  from {
+    transform: scale(0);
+    opacity: 0;
+  }
+  to {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+.garden-grow {
+  transform-box: fill-box;
+  transform-origin: 50% 100%;
+  animation: garden-grow 0.9s cubic-bezier(0.2, 0.8, 0.2, 1) both;
 }

@@ -1,0 +1,84 @@
+{
+  "meta": {
+    "title": "The Wird Garden",
+    "description": "Memorize the Quran at your own pace and watch your garden grow."
+  },
+  "header": {
+    "tagline": "Your Quran, your garden",
+    "howItWorks": "How it works",
+    "signIn": "Sign in"
+  },
+  "hero": {
+    "titleStart": "Start with a seed.",
+    "titleEnd": "End with a garden.",
+    "subtitle": "Memorize the Quran at your own pace, your own way. Every surah you keep in your heart blooms in your garden.",
+    "cta": "Start my garden",
+    "badgeTitle": "12 flowers",
+    "badgeText": "already blooming in your garden"
+  },
+  "steps": {
+    "eyebrow": "How it works",
+    "title": "Recite. Remember. Bloom.",
+    "items": [
+      {
+        "title": "Recite",
+        "text": "Choose how you memorize: by ayah, by third, by half page or by page. Listen to the audio and repeat as many times as you need."
+      },
+      {
+        "title": "Remember",
+        "text": "Reviewing is watering. Every day the app tells you what to review so nothing wilts."
+      },
+      {
+        "title": "Bloom",
+        "text": "Every surah you memorize becomes a new plant in your garden."
+      }
+    ]
+  },
+  "garden": {
+    "eyebrow": "Your garden",
+    "title": "Every surah, a plant",
+    "text": "The longer the surah, the bigger what blooms. No one competes with anyone: the garden is yours alone.",
+    "items": [
+      { "unit": "Short surahs", "becomes": "Daisies and violets" },
+      { "unit": "Medium surahs", "becomes": "Roses and tulips" },
+      { "unit": "Long surahs", "becomes": "Hydrangeas and jasmine" },
+      { "unit": "Al-Baqarah", "becomes": "A tree in bloom" }
+    ]
+  },
+  "name": {
+    "eyebrow": "Why the name",
+    "title": "From wird to ward",
+    "wirdLabel": "Your daily portion of the Quran",
+    "wardLabel": "Roses",
+    "text": "In Arabic they are written with the same letters, and only one vowel changes. Day by day, your wird becomes a garden of roses."
+  },
+  "features": {
+    "eyebrow": "Made for hifz",
+    "title": "Everything you need, nothing more",
+    "items": [
+      {
+        "title": "A plan made for you",
+        "text": "Guided day by day or at your own pace. Start with Al-Fatiha or with Juz' Amma."
+      },
+      {
+        "title": "Audio by ayah",
+        "text": "Renowned reciters and automatic repetition of what you are memorizing."
+      },
+      {
+        "title": "Self-test mode",
+        "text": "Hide the text and recite from memory to check what you already know."
+      },
+      {
+        "title": "An assistant by your side",
+        "text": "Helps you plan your review and explains the meaning of what you memorize, citing its sources."
+      }
+    ]
+  },
+  "closing": {
+    "titleStart": "Plant the Quran",
+    "titleEnd": "in your heart."
+  },
+  "footer": {
+    "source": "Source on GitHub"
+  }
+}
